@@ -38,3 +38,4 @@ Veja o projeto em: http://paul8liveira.blog.br/MerchantsGuideToTheGalaxy
 	* Este comando vai gerar o arquivo .mdf em Pau8liveira.MerchantsGuideToTheGalaxy.MVC\App_Data que vai representar o banco de dados local conforme definido no `web.config`
  
 * No `web.config` alterar o caminho da pasta temp conforme configurado no seu computador.
+	* `<add key="CaminhoPastaTemp" value="C:\Temp" />`
