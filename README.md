@@ -34,7 +34,7 @@ Veja o projeto em: http://paul8liveira.blog.br/MerchantsGuideToTheGalaxy
 	* **Paul8liveira.MerchantsGuideToTheGalaxy.Infra.Data** 
 		* `Install-Package EntityFramework -Version 6.1.3`
 	
-* Gerar banco de dados local através do comando Update-Database -Verbose
-	* Este comando vai gerar o arquivo .mdf em Pau8liveira.MerchantsGuideToTheGalaxy.MVC\App_Data que vai representar o banco de dados local conforme definido no web.config
+* Gerar banco de dados local através do comando `Update-Database -Verbose`
+	* Este comando vai gerar o arquivo .mdf em Pau8liveira.MerchantsGuideToTheGalaxy.MVC\App_Data que vai representar o banco de dados local conforme definido no `web.config`
  
 * No `web.config` alterar o caminho da pasta temp conforme configurado no seu computador.
