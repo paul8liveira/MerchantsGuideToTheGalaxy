@@ -1,0 +1,40 @@
+﻿@model Paul8liveira.MerchantsGuideToTheGalaxy.MVC.ViewModels.HomeViewModel
+
+<p class="subtitle">Please select your input file below to get the converted intergalactic units.</p>
+
+<!-- subscribe form -->
+<div id="subscribe" class="form-wrap">
+    <input id="kv-explorer" type="file" class="file-loading" data-show-preview="false">
+    <div id="errorBlock"></div>
+    <div id="errorCustomBlock" class="alert alert-danger fade in" style="margin-top:10px;display:none"></div>
+
+    <table id="tableResults" class="table" style="display:none"> 
+        <thead> 
+            <tr> 
+                <th>Text</th> 
+                <th>Translation</th> 
+            </tr> 
+        </thead> 
+        <tbody id="tbodyResults"> 
+
+        </tbody> 
+    </table>
+
+</div>
+
+<!-- Social links -->
+<div class="social">
+    <a href="https://github.com/paul8liveira/MerchantsGuideToTheGalaxy" target="_blank">
+        <span class="fa fa-github" title="GitHub"></span>
+    </a>
+</div>
+					
+<!-- Modal page toggle -->
+@*<div class="modal-toggle" >
+    <a href="#" id="modal-open" class="button-about">Latest Inputs</a>
+</div>*@
+
+@section scripts {
+    <input type="hidden" id="urlPost" value="@Model.UrlPost">
+    @Scripts.Render("~/bundles/fileinput")    
+}

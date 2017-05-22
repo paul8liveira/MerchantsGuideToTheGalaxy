@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{EA1801CE-FC95-4240-A5AA-9D09AF46D029}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{A0FFC448-6E0D-4EA5-AB51-3C712514C9E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{64190511-4E11-4D1B-8861-294DC2DB6C82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{37AA385A-6D08-4852-A51B-AB014A62545F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{B91747DE-5871-4E1D-97CE-75A985DC76AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paul8liveira.MerchantsGuideToTheGalaxy.MVC", "Pau8liveira.MerchantsGuideToTheGalaxy.MVC\Paul8liveira.MerchantsGuideToTheGalaxy.MVC.csproj", "{A744C5D7-B0C6-4937-9F0C-6F54C457AE80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paul8liveira.MerchantsGuideToTheGalaxy.Application", "Paul8liveira.MerchantsGuideToTheGalaxy.Application\Paul8liveira.MerchantsGuideToTheGalaxy.Application.csproj", "{D2D070C1-84C5-4FC1-AAA9-533E9B3A08BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paul8liveira.MerchantsGuideToTheGalaxy.Domain", "Paul8liveira.MerchantsGuideToTheGalaxy.Domain\Paul8liveira.MerchantsGuideToTheGalaxy.Domain.csproj", "{73D136F5-7E61-4907-9720-2DB486F067A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - CrossCutting", "4.1 - CrossCutting", "{7FAD41C1-9CB6-4050-A053-4FC0581BFA9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - Data", "4.2 - Data", "{0EFF906B-3803-4E89-A578-922A1D01FA7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paul8liveira.MerchantsGuideToTheGalaxy.Infra.Data", "Paul8liveira.MerchantsGuideToTheGalaxy.Infra.Data\Paul8liveira.MerchantsGuideToTheGalaxy.Infra.Data.csproj", "{4DADB744-F518-4051-962F-20BC2DC464EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paul8liveira.MerchantsGuideToTheGalaxy.Infra.CrossCutting", "Paul8liveira.MerchantsGuideToTheGalaxy.Infra.CrossCutting\Paul8liveira.MerchantsGuideToTheGalaxy.Infra.CrossCutting.csproj", "{C6E31D2A-C771-4469-B610-025B74B7B387}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A744C5D7-B0C6-4937-9F0C-6F54C457AE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A744C5D7-B0C6-4937-9F0C-6F54C457AE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A744C5D7-B0C6-4937-9F0C-6F54C457AE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A744C5D7-B0C6-4937-9F0C-6F54C457AE80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2D070C1-84C5-4FC1-AAA9-533E9B3A08BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D070C1-84C5-4FC1-AAA9-533E9B3A08BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D070C1-84C5-4FC1-AAA9-533E9B3A08BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D070C1-84C5-4FC1-AAA9-533E9B3A08BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D136F5-7E61-4907-9720-2DB486F067A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D136F5-7E61-4907-9720-2DB486F067A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D136F5-7E61-4907-9720-2DB486F067A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D136F5-7E61-4907-9720-2DB486F067A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DADB744-F518-4051-962F-20BC2DC464EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DADB744-F518-4051-962F-20BC2DC464EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DADB744-F518-4051-962F-20BC2DC464EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DADB744-F518-4051-962F-20BC2DC464EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E31D2A-C771-4469-B610-025B74B7B387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E31D2A-C771-4469-B610-025B74B7B387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E31D2A-C771-4469-B610-025B74B7B387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E31D2A-C771-4469-B610-025B74B7B387}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A744C5D7-B0C6-4937-9F0C-6F54C457AE80} = {EA1801CE-FC95-4240-A5AA-9D09AF46D029}
+		{D2D070C1-84C5-4FC1-AAA9-533E9B3A08BF} = {64190511-4E11-4D1B-8861-294DC2DB6C82}
+		{73D136F5-7E61-4907-9720-2DB486F067A2} = {37AA385A-6D08-4852-A51B-AB014A62545F}
+		{7FAD41C1-9CB6-4050-A053-4FC0581BFA9D} = {B91747DE-5871-4E1D-97CE-75A985DC76AD}
+		{0EFF906B-3803-4E89-A578-922A1D01FA7D} = {B91747DE-5871-4E1D-97CE-75A985DC76AD}
+		{C6E31D2A-C771-4469-B610-025B74B7B387} = {7FAD41C1-9CB6-4050-A053-4FC0581BFA9D}
+		{4DADB744-F518-4051-962F-20BC2DC464EC} = {0EFF906B-3803-4E89-A578-922A1D01FA7D}
+	EndGlobalSection
+EndGlobal

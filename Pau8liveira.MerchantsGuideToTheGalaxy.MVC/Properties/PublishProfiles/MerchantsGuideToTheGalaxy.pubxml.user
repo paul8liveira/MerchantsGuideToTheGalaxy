@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Sistemas\ASP.NET\Paul8liveira.MerchantsGuideToTheGalaxy\_Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/aspnet-Paul8liveira.MerchantsGuideToTheGalaxy.MVC-20170519154703.mdf">
+      <publishTime>05/21/2017 19:29:10</publishTime>
+    </File>
+    <File Include="App_Data/aspnet-Paul8liveira.MerchantsGuideToTheGalaxy.MVC-20170519154703_log.ldf">
+      <publishTime>05/21/2017 19:29:10</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>05/19/2017 15:48:04</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.dll">
+      <publishTime>05/19/2017 19:07:04</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.Net4.dll">
+      <publishTime>05/19/2017 19:07:04</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>05/19/2017 15:56:57</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>05/19/2017 15:56:57</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>05/19/2017 15:47:45</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>05/19/2017 15:47:47</publishTime>
+    </File>
+    <File Include="bin/Ninject.dll">
+      <publishTime>05/20/2017 21:14:12</publishTime>
+    </File>
+    <File Include="bin/Ninject.Web.Common.dll">
+      <publishTime>05/20/2017 21:14:12</publishTime>
+    </File>
+    <File Include="bin/Ninject.Web.Mvc.dll">
+      <publishTime>05/20/2017 21:14:13</publishTime>
+    </File>
+    <File Include="bin/Pau8liveira.MerchantsGuideToTheGalaxy.MVC.dll">
+      <publishTime>05/21/2017 20:28:04</publishTime>
+    </File>
+    <File Include="bin/Paul8liveira.MerchantsGuideToTheGalaxy.Application.dll">
+      <publishTime>05/21/2017 20:27:57</publishTime>
+    </File>
+    <File Include="bin/Paul8liveira.MerchantsGuideToTheGalaxy.Domain.dll">
+      <publishTime>05/21/2017 20:27:51</publishTime>
+    </File>
+    <File Include="bin/Paul8liveira.MerchantsGuideToTheGalaxy.Infra.CrossCutting.dll">
+      <publishTime>05/21/2017 18:35:12</publishTime>
+    </File>
+    <File Include="bin/Paul8liveira.MerchantsGuideToTheGalaxy.Infra.Data.dll">
+      <publishTime>05/21/2017 20:28:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/19/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/19/2017 15:47:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>05/19/2017 15:47:53</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/19/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>05/19/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>05/19/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>05/19/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/WebActivatorEx.dll">
+      <publishTime>05/19/2017 19:01:45</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>05/19/2017 15:48:04</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.css">
+      <publishTime>05/19/2017 23:33:55</publishTime>
+    </File>
+    <File Include="Content/css/fileinput.css">
+      <publishTime>05/19/2017 23:41:09</publishTime>
+    </File>
+    <File Include="Content/css/fonts/fontawesome-webfont.woff2">
+      <publishTime>04/30/2017 14:39:29</publishTime>
+    </File>
+    <File Include="Content/css/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>05/14/2017 23:04:26</publishTime>
+    </File>
+    <File Include="Content/css/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>05/14/2017 23:02:52</publishTime>
+    </File>
+    <File Include="Content/css/style.css">
+      <publishTime>05/19/2017 22:48:11</publishTime>
+    </File>
+    <File Include="Content/img/favicon.ico">
+      <publishTime>05/21/2017 19:10:09</publishTime>
+    </File>
+    <File Include="Content/img/loading.gif">
+      <publishTime>05/21/2017 19:10:09</publishTime>
+    </File>
+    <File Include="Content/img/logo.png">
+      <publishTime>05/20/2017 00:01:51</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/20/2017 22:42:37</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/20/2017 21:55:29</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/config.js">
+      <publishTime>05/21/2017 18:25:23</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/fileinput.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/fileinput.min.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/ar.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/bg.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/ca.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/cr.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/cz.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/da.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/de.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/el.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/es.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/et.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/fa.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/fi.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/fr.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/gl.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/hu.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/id.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/it.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/ja.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/kr.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/kz.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/LANG.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/nl.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/no.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/pl.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/pt-BR.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/pt.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/ro.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/ru.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/sk.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/sl.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/sv.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/th.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/tr.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/uk.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/vi.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/zh-TW.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/locales/zh.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/plugins/canvas-to-blob.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/plugins/canvas-to-blob.min.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/plugins/purify.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/plugins/purify.min.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/plugins/sortable.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/fileinput/plugins/sortable.min.js">
+      <publishTime>05/13/2017 15:52:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery.1.11.3.min.js">
+      <publishTime>05/19/2017 19:49:11</publishTime>
+    </File>
+    <File Include="Scripts/modernizr.js">
+      <publishTime>05/19/2017 19:48:28</publishTime>
+    </File>
+    <File Include="Scripts/plugins.js">
+      <publishTime>05/19/2017 19:49:22</publishTime>
+    </File>
+    <File Include="Scripts/scripts.js">
+      <publishTime>05/19/2017 19:49:33</publishTime>
+    </File>
+    <File Include="Scripts/YTPlayer.min.js">
+      <publishTime>05/19/2017 19:49:29</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>05/21/2017 18:21:47</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>05/19/2017 15:47:06</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>05/21/2017 18:26:27</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>05/19/2017 15:47:06</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>05/19/2017 15:47:06</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/21/2017 20:28:07</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
