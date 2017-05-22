@@ -36,6 +36,9 @@ Veja o projeto em: http://paul8liveira.blog.br/MerchantsGuideToTheGalaxy
 	
 * Gerar banco de dados local através do comando `Update-Database -Verbose`
 	* Este comando vai gerar o arquivo .mdf em Pau8liveira.MerchantsGuideToTheGalaxy.MVC\App_Data que vai representar o banco de dados local conforme definido no `web.config`
+	* Caso ocorrer o erro **cannot attach the file as database**, significa que você está refazendo o processo mas o banco ainda está registrado no SqlLocalDB. Execute os seguintes comandos no Package Manager Console:
+	 * `sqllocaldb.exe stop v11.0`
+	 * `sqllocaldb.exe delete v11.0`
  
 * No `web.config` alterar o caminho da pasta temp conforme configurado no seu computador.
 	* `<add key="CaminhoPastaTemp" value="C:\Temp" />`
