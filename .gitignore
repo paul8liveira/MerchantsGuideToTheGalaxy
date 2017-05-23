@@ -9,5 +9,6 @@
 /_Publish/
 /_Outros/
 /packages/
+/TestResults/
 **/bin/
 **/obj/

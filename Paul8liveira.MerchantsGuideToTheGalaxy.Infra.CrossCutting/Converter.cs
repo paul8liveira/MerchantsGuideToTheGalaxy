@@ -49,19 +49,19 @@ namespace Paul8liveira.MerchantsGuideToTheGalaxy.Infra.CrossCutting
                 case "GOLD":
                 {
                     romanToArabic *= Gold;
-                    concatText = " GOLD IS " + romanToArabic + " CREDITS";
+                    concatText = "GOLD IS " + romanToArabic + " CREDITS";
                     break;
                 }
                 case "SILVER":
                 {
                     romanToArabic *= Silver;
-                    concatText = " SILVER IS " + romanToArabic + " CREDITS";
+                    concatText = "SILVER IS " + romanToArabic + " CREDITS";
                     break;
                 }
                 case "IRON":
                 {
                     romanToArabic *= Iron;
-                    concatText = " IRON IS " + romanToArabic + " CREDITS";
+                    concatText = "IRON IS " + romanToArabic + " CREDITS";
                     break;
                 }                    
             }

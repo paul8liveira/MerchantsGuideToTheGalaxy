@@ -25,6 +25,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paul8liveira.MerchantsGuide
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paul8liveira.MerchantsGuideToTheGalaxy.Infra.CrossCutting", "Paul8liveira.MerchantsGuideToTheGalaxy.Infra.CrossCutting\Paul8liveira.MerchantsGuideToTheGalaxy.Infra.CrossCutting.csproj", "{C6E31D2A-C771-4469-B610-025B74B7B387}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{12A70A23-B7DE-4750-BB88-0C4E7DB2A807}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paul8liveira.MerchantsGuideToTheGalaxy.UnitTest", "Paul8liveira.MerchantsGuideToTheGalaxy.UnitTest\Paul8liveira.MerchantsGuideToTheGalaxy.UnitTest.csproj", "{88968C08-F1A4-43FA-92A4-DDD186BA8878}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +58,10 @@ Global
 		{C6E31D2A-C771-4469-B610-025B74B7B387}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6E31D2A-C771-4469-B610-025B74B7B387}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6E31D2A-C771-4469-B610-025B74B7B387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88968C08-F1A4-43FA-92A4-DDD186BA8878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88968C08-F1A4-43FA-92A4-DDD186BA8878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88968C08-F1A4-43FA-92A4-DDD186BA8878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88968C08-F1A4-43FA-92A4-DDD186BA8878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

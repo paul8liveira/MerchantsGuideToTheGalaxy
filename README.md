@@ -42,3 +42,7 @@ Veja o projeto em: http://paul8liveira.blog.br/MerchantsGuideToTheGalaxy
  
 * No `web.config` alterar o caminho da pasta temp conforme configurado no seu computador.
 	* `<add key="CaminhoPastaTemp" value="C:\Temp" />`
+	
+**Teste unitário com NUnit**
+* Para instalação, com o Package Manager Console utilize o comando abaixo:
+	* `Install-Package NUnitTestAdapter`
