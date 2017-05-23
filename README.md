@@ -4,7 +4,7 @@ Desafio Merchant's Guide To The Galaxy
 Veja o projeto em: http://paul8liveira.blog.br/MerchantsGuideToTheGalaxy
 
 **Arquitetura do projeto**
-* Utilizado método DDD (Domain Driven Design) como abordagem para modelagem do projeto, com arquitetura em 4 camadas (Presentation, Application, Domain e Infra). Acredito que essa arquitetura gera uma solução de qualidade​ e que pode ser executada​ e evoluída​ facilmente.
+* Utilizado método DDD (Domain Driven Design) como abordagem para modelagem do projeto, com arquitetura em 4 camadas (Presentation, Application, Domain e Infra) comunicando-se através de injeção de dependência. Acredito que essa arquitetura gera uma solução de qualidade​ e que pode ser executada​ e evoluída​ facilmente.
 
 **Documentação para construção e execução**
 * **IDE e Framework**
@@ -34,7 +34,7 @@ Veja o projeto em: http://paul8liveira.blog.br/MerchantsGuideToTheGalaxy
 	* **Paul8liveira.MerchantsGuideToTheGalaxy.Infra.Data** 
 		* `Install-Package EntityFramework -Version 6.1.3`
 	
-* Gerar banco de dados local através do comando `Update-Database -Verbose`
+* Gerar banco de dados local através do comando `Update-Database -Verbose` (no Package Manager Console)
 	* Este comando vai gerar o arquivo .mdf em Pau8liveira.MerchantsGuideToTheGalaxy.MVC\App_Data que vai representar o banco de dados local conforme definido no `web.config`
 	* Caso ocorrer o erro **cannot attach the file as database**, significa que você está refazendo o processo mas o banco ainda está registrado no SqlLocalDB. Execute os seguintes comandos no Package Manager Console:
 	 * `sqllocaldb.exe stop v11.0`
