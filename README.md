@@ -22,7 +22,7 @@ Veja o projeto em: http://paul8liveira.blog.br/MerchantsGuideToTheGalaxy
 		* `Install-Package EntityFramework -Version 6.1.3`
 		* `Install-Package AutoMapper -Version 3.2.1`
 		* `Install-Package Newtonsoft.Json -Version 4.5.11`
-		* `Install-Package Ninject.MVC5`
+		* `Install-Package Ninject.MVC5` **(Não sobrescreva o arquivo App_Start/NinjectWebCommon.cs caso sugerido)**
 		* `System.web.Optimization.dll` deve ser encontrada na pasta local onde foi instalado o ASP.NET MVC  (ex: C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\)
 		
 	* **Paul8liveira.MerchantsGuideToTheGalaxy.Application** 

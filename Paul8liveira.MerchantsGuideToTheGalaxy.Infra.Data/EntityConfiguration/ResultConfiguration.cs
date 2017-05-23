@@ -16,6 +16,11 @@ namespace Paul8liveira.MerchantsGuideToTheGalaxy.Infra.Data.EntityConfiguration
                 .HasForeignKey(p => p.InputId);
 
             //define tamanho varchar(500)
+            Property(p => p.Text)
+                .IsRequired()
+                .HasMaxLength(500);
+
+            //define tamanho varchar(500)
             Property(p => p.Translation)
                 .IsRequired()
                 .HasMaxLength(500);
